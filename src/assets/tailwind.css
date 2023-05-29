@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .prag {
+        @apply font-bold text-[3rem]
+    }
+
+    .main {
+        background-image: url('../.././public/img/main.jpg');
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .plants{
+        background-image: url('../.././public/img/plants.jpg');
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .animal{
+        background-image: url('../.././public/img/animal5.jpg');
+        background-size: cover;
+        width: 100%;
+        min-height: 120vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@layer base {
+    button {
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
