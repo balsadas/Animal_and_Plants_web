@@ -7,6 +7,8 @@ import Plants from "./page/Plants";
 import IntoPlants from './page/IntoPlants';
 import IntoAnimals from './page/IntoAnimals';
 import UnderPlants from './page/UnderPlants';
+import UnderAnimals from './page/UnderAnimals';
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
           <Route path='/IntoPlants' element={<IntoPlants/>}/>
           <Route path='/IntoAnimals' element={<IntoAnimals/>}/>
           <Route path='/IntoPlants1' element={<UnderPlants/>}/>
+          <Route path='/IntoAnimals1' element={<UnderAnimals/>}/>
         </Routes>
  
     </div>

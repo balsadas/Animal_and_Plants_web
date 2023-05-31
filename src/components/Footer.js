@@ -7,7 +7,7 @@ function Footer({ color }) {
             <div className="w-[90%] md:flex  items-center ">
                 <div className="flex justify-center">
                     <div>
-                        <img className="md:w-[5vw] md:h-[5vw] object-cover" src="./img/Titu.png" />
+                        <img className="md:w-[5vw] w-[15vw] h-[15vw] mt-4 md:h-[5vw] object-cover" src="./img/Titu.png" />
                     </div>
                 </div>
                 <div className="font-[500] ml-2 flex justify-center text-[4vw] md:text-[1.1vw]">
